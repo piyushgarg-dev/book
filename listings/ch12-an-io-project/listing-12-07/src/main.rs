@@ -30,7 +30,7 @@ struct Config {
 
 // ANCHOR: here
 impl Config {
-    fn new(args: &[String]) -> Config {
+    fn new(args: &[String]) -> Self {
         let query = args[1].clone();
         let file_path = args[2].clone();
 
